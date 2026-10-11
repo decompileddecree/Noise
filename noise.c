@@ -1,3 +1,7 @@
+#if !defined(_WIN32) && !defined(__APPLE__)
+#define _GNU_SOURCE
+#endif
+
 #include <SDL.h>
 #include <stdint.h>
 #include <stdbool.h>
